@@ -1,7 +1,4 @@
 def binary_search(list, item):
-    if len(list) < 1:
-        return None
-
     counter = 0
     low = 0
     high = len(list) - 1
